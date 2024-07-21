@@ -1,7 +1,6 @@
 ﻿#region References
 using System.Collections.Generic;
 
-using CustomsFramework;
 
 using Server;
 using Server.Commands;
