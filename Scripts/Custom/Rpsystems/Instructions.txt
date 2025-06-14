@@ -1,0 +1,39 @@
+Hi i'm Toupzy/Bobking this is my first amazing systems i worked on or part of my roleplay total conversion initiative, just having fun and i love Servuo 
+i used Servuo publish 57.4 for this and burnt out a.i a few times learning from it and questions It is only fair i share some of my work for I am not aiming
+at making a popular shard and Servuo helped me a lot in the past, I also fetched snippet resources so enjoy please just thank me or anything if you do like it!
+
+
+******************Guards***************************************************************************************
+
+Oh for best results with guards make sure you disable vanilla/osi guards from regions xml at least i would do that...
+
+
+
+
+1. Just drop Custom folder or the files you want inside Custom under C:\ServUO-pub57\Scripts 
+
+2. The guards should work from the get go but the best way to go about it is minimal setup and perfect according to my testing: 
+[add xmlspawner   then guard_v3 (2 or 3 or something that makes sense to your map or location) I like to populate fancy streets but not poor towns much.
+
+In the Xmlspawner properties make sure homerange=15 and spawn=15 or around 15 for spawn, this was my best result.
+
+3. Feel free to edit the scripts or anything of course, the guards will assault anybody with skin hue 1970 or 1157 because it is the goblinblood and demonblood
+from this folder i offer if you want, but it can simply be ignored or commented out easily.
+
+4.If you do any edits to the guard file make sure you respawn the xmlspawners, also feel free not to use my demonblood and goblinblood races or modify or anything.
+
+5. Guards will patrol and kill anything bad or criminal, they will attempt to dismount horsed enemies too with a fancy smoke bomb effect and sound it's random
+so they don't 100% succeeed.. You can sneak by them i may have screwed up the stealth line but it works better than i thought. They will randomly speak lines you
+can easily modify to your liking or add more, and not be spammy about it (v1 version was so spammy) They will not chase or notice ghost/dead players like in V1 either.
+
+******************Monster Blood Races***************************************************************************************
+Like always 100% free to edit/not use or anything
+1. Inside game the following commands [add Demport   then select the ground... or [add Gobport..
+2. You will notice it created a portal thingy this is because i created an intro room/area where people can pick OSI/DEFAULT or backgrounds for rp like these ones.
+3. Once stepping or walking through Demport or Gobport the code will apply..
+4. [props on Demport/Gobport and select a destination where it leads if going that route, I just add a moongate ontop (The moongate doenst teleport)
+it is only Demport/gobport that teleport player.. I rename the Moongate something like: Goblinblood for gobport and Demonblood for Demport.
+
+So in short: Create Demport or Gobport and just make it lead somewhere with destination, feel free to add a moongate ontop for effect/visual like i do.
+
+Notes: I really hope somebody can appreciate this and i feel it is minimal setup and can be tweaked easily in many ways, this is the way i have chosen to do things.

@@ -1,0 +1,10 @@
+Runic quest
+
+Oh no the poor worried BlackSmith Feron, had her orderlist stolen by the evil Balzan marcos, and she need you to get it back.
+
+If you can defeat the evil Balzan marcos and find the orderlist she will give you a special reward (either a runic hammer or a runic sewing kit)..
+
+
+To install all you need to do is drop all the scripts except Runicquest.cfg into scripts\custom\  
+drop runicquest.cfg into your \Data\Decoration\Britannia (this will spawn both in tram and fel) and once server is restarted type [decorate
+(you can spawn manually if you would rather)
