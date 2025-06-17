@@ -1,0 +1,37 @@
+﻿using System;
+using Server;
+
+namespace Server.Items
+{
+	public class GiftForMaxwell : Item
+	{
+		public override int LabelNumber{ get{ return 1029002; } } // gift for maxwell
+		
+		[Constructable]
+		public GiftForMaxwell() : base( 9003 )
+		{
+			Name = "A Gift For Maxwell";
+			LootType = LootType.Blessed;
+			Weight = 1;
+			Hue = 2658;
+		}
+		
+		public GiftForMaxwell( Serial serial ) : base( serial )
+		{
+		}
+		
+		public override void Serialize( GenericWriter writer )
+		{
+			base.Serialize( writer );
+
+			writer.Write( (int) 0 ); // version
+		}
+		
+		public override void Deserialize( GenericReader reader )
+		{
+			base.Deserialize( reader );
+
+			int version = reader.ReadInt();
+		}
+	}
+}

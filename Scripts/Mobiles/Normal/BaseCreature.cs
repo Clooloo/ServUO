@@ -5934,6 +5934,7 @@ namespace Server.Mobiles
             {
                 m_HasGeneratedLoot = true;
                 GenerateLoot(false);
+				ArtifactValidate.GiveArtifact(this); //Loot System
             }
 
             if (!NoKillAwards && Region.IsPartOf("Doom"))
@@ -6415,6 +6416,7 @@ namespace Server.Mobiles
                                 fame.Add(totalFame);
                                 karma.Add(totalKarma);
                             }
+							ArtifactValidate.ArtiChance(ds.m_Mobile, this);
                         }
 
                         OnKilledBy(ds.m_Mobile);
@@ -6504,7 +6506,7 @@ namespace Server.Mobiles
 
                     e.ClearLoot(true);
                 }
-
+				ArtifactValidate.MultiP( 1 );
                 base.OnDeath(c);
 
                 if (e.PreventDefault)
