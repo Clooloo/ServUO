@@ -14,7 +14,7 @@ namespace Server.Items
 		[Constructable]
 		public WelcomeShroud()
 		{
-			Name = "The Grove: A New Beginning";
+			Name = "New Hero Shroud";
 			Hue = 1910;
 			LootType = LootType.Blessed;
 			Attributes.LowerRegCost = 100;
