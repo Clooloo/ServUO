@@ -2414,7 +2414,7 @@ namespace Server.Multis
 
                 int index = ((x * size) + y) * 2;
 
-                if (x < 0 || y < 0 || y >= size || (index + 1) >= 0x400)
+                if (x < 0 || y < 0 || y >= size || (index + 1) >= 0x1156)
                 {
                     int stairBufferIndex = (totalStairsUsed / MaxItemsPerStairBuffer);
                     byte[] stairBuffer = m_StairBuffers[stairBufferIndex];

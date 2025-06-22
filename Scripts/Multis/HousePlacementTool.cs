@@ -533,7 +533,10 @@ namespace Server.Items
             new HousePlacementEntry(typeof(HouseFoundation), 1060381,	2119,	1059,	2437,	1218,	42,	158500, 0,	8,	0,	0x1478), // 18x15 3-Story Customizable House
             new HousePlacementEntry(typeof(HouseFoundation), 1060382,	2119,	1059,	2437,	1218,	42,	168000, 0,	9,	0,	0x1479), // 18x16 3-Story Customizable House
             new HousePlacementEntry(typeof(HouseFoundation), 1060383,	2119,	1059,	2437,	1218,	42,	177500, 0,	9,	0,	0x147A), // 18x17 3-Story Customizable House
-            new HousePlacementEntry(typeof(HouseFoundation), 1060384,	2119,	1059,	2437,	1218,	42,	187000, 0,	10,	0,	0x147B)// 18x18 3-Story Customizable House
+            new HousePlacementEntry(typeof(HouseFoundation), 1060384,	2119,	1059,	2437,	1218,	42,	187000, 0,	10,	0,	0x147B),// 18x18 3-Story
+			new HousePlacementEntry(typeof(HouseFoundation), 1158538,   2625,   1312,   3019,   1509,   78, 325000, 0,  10, 0,  0x147C), // 23x23 3-Story Customizable Keep
+            new HousePlacementEntry(typeof(HouseFoundation), 1158539,   4076,   2038,   4688,   2344,   78, 525000, 0,  10, 0,  0x147D)  // 32x32 3-Story Customizable Castle
+			//Customizable House
         };
 
         private static Hashtable m_Table;
