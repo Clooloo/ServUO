@@ -18,8 +18,8 @@ namespace Server
 		{
 		//Special Loot
 
-
-			
+			type(AG_BathTubSouthAddonDeed),
+			type(AG_BathTubEastAddonDeed),
 		
 			
 			
