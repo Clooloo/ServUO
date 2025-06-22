@@ -18,77 +18,31 @@ namespace Server
 		{
 		//Special Loot
 
-			type(AG_BathTubSouthAddonDeed),
-			type(AG_BathTubEastAddonDeed),
-		
+			typeof(AG_BathTubSouthAddonDeed),
+			typeof(AG_BathTubEastAddonDeed),
 			
+			typeof( AG_JacuzziEastAddonDeed ),
+			typeof( AG_JacuzziSouthAddonDeed ),
+			typeof( AG_ShowerEastAddonDeed ),
+			typeof( AG_ShowerSouthAddonDeed ),
+			typeof( ADVTrainingDummy ),
+			typeof( BBQ1EastAddonDeed ),
+			typeof( DoorMatRound ),
+			typeof( WelcomeMat ),
+			//typeof(  ),
+			//typeof(  ),
+			//typeof(  ),
+			//typeof(  ),
+			//typeof(  ),
+			//typeof(  ),
+			//typeof(  ),
+			//typeof(  ),
+			//typeof(  ),
+			//typeof(  ),
+			//typeof(  ),
+			//typeof(  ),
+			//typeof(  ),
 			
-			
-
-			
-		//	typeof(TrashPack),
-			
-			//typeof(MasterItemStoreKey),
-			
-			//typeof(ASHKey),
-			
-		//	typeof(AdventurerKey),
-			
-		//	typeof(ArmorKey),
-			
-		//	typeof(ArmoryKey),
-			
-		//	typeof(BardsKey),
-			
-		//	typeof(BeverageKey),
-			
-			
-			
-		//	typeof(ChampSkullKey),
-			
-		//	typeof(ChefKey),
-			
-		//	typeof(ClothingKey),
-			
-		//	typeof(FishKey),
-			
-		//	typeof(GardenersKey),
-			
-		//	typeof(GemKey),
-			
-		//	typeof(GraniteKey),
-			
-		//	typeof(IngotKey),
-			
-		//	typeof(JewelersKey),
-			
-		//	typeof(JewelryKey),
-			
-		//	typeof(LargeItemCountTestKey),
-			
-		//	typeof(MeatKey),
-			
-		//	typeof(PSKey),
-			
-		//	typeof(PotionKey),
-			
-		//	typeof(ReagentKey),
-			
-		//	typeof(RunicToolKey),
-			
-		//	typeof(ScribesKey),
-			
-		//	typeof(SmithyKey),
-			
-		//	typeof(TailorKey),
-			
-		//	typeof(ToolKey),
-			
-		//	typeof(TreasureHuntersKey),
-			
-		//	typeof(WeaponKey),
-			
-		//	typeof(WoodKey),
 			
 			typeof(Alchemist2BazaarAddonDeed),
 			
